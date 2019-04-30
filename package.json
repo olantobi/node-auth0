@@ -1,0 +1,38 @@
+{
+  "name": "node-auth0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olantobi/node-auth0.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "auth0",
+    "OAuth2"
+  ],
+  "author": "Tobi Olanrewaju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olantobi/node-auth0/issues"
+  },
+  "homepage": "https://github.com/olantobi/node-auth0#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.1.0"
+  }
+}
